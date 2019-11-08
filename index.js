@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000
 var date = new Date();
 var time = date.toLocaleTimeString();
 var n = date.toDateString();
-app.get('/', (req, res) => res.render('index',{
+app.get('/', (req, res) => res.render('signin',{
    date: n,
    time : time
 }));
