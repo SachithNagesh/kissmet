@@ -1,3 +1,15 @@
-p "Hello World!"
-p Date is #{date}
-p Time is #{time}
+style
+    include index.css
+h1(class = 'hello') Welcome to Kiss-met App! 
+<Br>
+<br>
+
+h1(class = 'hello')= "Register"
+    form(action="/registeruser" method="POST")
+    h2(class = 'placehold') Username: 
+      input(type="text" name="username" placeholder="")
+    h2(class = 'placehold') Firstname: 
+      input(type="text" name="firstname" placeholder="")
+    h2(class = 'placehold') Lastname: 
+      input(type="text" name="lastname" placeholder="")
+    input(class = "button" type="submit")
