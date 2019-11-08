@@ -2,9 +2,12 @@ style
     include index.css
 
 h1(class = "hello") Welcome to Kiss-met App!
-h1(class = "hello") Sign In
+br
+br
+br
+h2(class = "hello") Sign In
 form(action='/welcome.pug', method='POST')
     h3(class = "placehold") 
         | Username: 
         input(name='username', value='', type='text')
-    input(value='Sign In', type='submit')
+    input(class = "button", value='Sign In', type='submit')
