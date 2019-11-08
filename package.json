@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/SachithNagesh/kissmet#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodegit": "^0.26.2",
+    "pug": "^2.0.4"
   }
 }
